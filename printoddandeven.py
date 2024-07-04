@@ -50,8 +50,23 @@ evennumber(0)
 #x = input("getInput:  ")
 #print(x)
 
+def isEven(x:int) -> bool:
+    if x%2 == 0:
+        return True
+    return False
 
+def printallEven(start:int, end:int):
+    for i in range(start, end):
+        if isEven(i):
+            print(i)
 
+def printallOdd(start:int, end:int):
+    for i in range(start, end):
+        if isEven(i) == False:
+            print(i)
+
+printallEven(0, 100)
+printallOdd(0, 100)
 
 
     

@@ -3,8 +3,11 @@ def displaylist():
     x = len(family)
     #for a in range(len(family)):
     #print(family[a])
-    for a in range(len(family)-1,0,-1):
-        print(family[a])
+    # for a in range(len(family)-1,-1,-1):
+    #     print(family[a])
+    #print(reversed(family))
+    for person in reversed(family):
+        print(person)
 
 displaylist()
 

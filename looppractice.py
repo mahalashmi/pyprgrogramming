@@ -31,6 +31,13 @@ def displaymultiplicationtable(n:int):
     for i in range(1,11):
         multiply =i*n
         print(f"{i}*{n}={multiply}")
-displaymultiplicationtable(3)
+#displaymultiplicationtable(3)
+def factorial(n:int):
+    fact:int = 1
+    for i in range(1,n+1):
+        fact = fact* i
+    print(fact)
+#factorial(5)
+
 
 
